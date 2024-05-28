@@ -30,6 +30,6 @@ docker-compose down
 
 ## TASK
 
-1. Connect prosthesis to Grafana.
+1. Connect Prometheus to Grafana.
 2. Load a sample dashboard in Grafana using a provided `grafana.json` file.
 3. Add a new `stat` metric `random_sum` in this.
