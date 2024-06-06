@@ -64,6 +64,7 @@ services:
       - 8080:8080
     networks:
       - back-tier
+    privileged: true
 
   grafana:
     restart: unless-stopped
